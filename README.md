@@ -17,13 +17,13 @@ cd ~/.oh-my-zsh/custom/plugins/
 1. Clone the plugin:
 
   ```bash
-  git clone https://github.com/username/conda_cwd_env
+  git clone https://github.com/adambytes/conda-cwd ~/.oh-my-zsh/custom/plugins/conda-cwd
   ```
 
 2. Include conda_cwd_env in your .zshrc's plugin list:
 
 ```config
-plugins=(... conda_cwd_env)
+plugins=(... conda-cwd)
 ```
 
 3. Restart your terminal or run source ~/.zshrc.
