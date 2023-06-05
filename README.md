@@ -16,8 +16,14 @@ This plugin requires Conda to be installed and available on your system.
 
 2. Include conda-cwd in your .zshrc's plugin list:
 
-```config
+```bash
+#  you can add it to your .zshrc configuration plugin 
 plugins=(... conda-cwd)
+```
+
+```bash
+# i find it easier to use the cli
+omz plugin enable conda-cwd
 ```
 
 3. Restart your terminal or run source ~/.zshrc.
