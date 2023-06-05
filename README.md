@@ -8,19 +8,13 @@ This plugin requires Conda to be installed and available on your system.
 
 ## Installation
 
-Navigate to your Oh My Zsh custom plugins directory:
-
-```bash
-cd ~/.oh-my-zsh/custom/plugins/
-```
-
 1. Clone the plugin:
 
   ```bash
   git clone https://github.com/adambytes/conda-cwd ~/.oh-my-zsh/custom/plugins/conda-cwd
   ```
 
-2. Include conda_cwd_env in your .zshrc's plugin list:
+2. Include conda-cwd in your .zshrc's plugin list:
 
 ```config
 plugins=(... conda-cwd)
