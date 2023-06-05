@@ -19,7 +19,7 @@ function ccwd() {
       echo "Conda environment already exists."
       return 0
     else 
-      conda create -p $CURRENT_DIR/.conda python=$PYTHON_VERSION > /dev/null 2>&1
+      conda create -p "$CURRENT_DIR/.conda" python=$PYTHON_VERSION > /dev/null 2>&1
       conda activate ./.conda
       echo "Conda environment created."
 
